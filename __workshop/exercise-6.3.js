@@ -6,6 +6,9 @@ function exercise6_3() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let integer = 2; integer <= 50; integer += 2) {
+    console.log(integer);
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
