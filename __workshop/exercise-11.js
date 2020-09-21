@@ -15,6 +15,11 @@ function exercise11() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let string = "#_#_#_#__#_#_#_##_#_#_#__#_#_#_##_#_#_#__#_#_#_##_#_#_#__#_#_#_#";
+
+  for (let x = 0; x <= 56; x += 8) {
+    console.log(string.substring(x, (x + 8)));
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
